@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Passwordmanager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
     <Grid>
+        <Border BorderThickness="1" Background="#FF131722"  Margin="-2,2,2,-2" >
+            <Border BorderThickness="1" Height="26" Background="#FF363A45"  VerticalAlignment="Top" MouseDown="moveWindow" Margin="-1,-1,-2,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,20,0">
+                    <Button  Margin="0,0,20,0" Height="20" Width="20" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FFC0C3CC" Content="—" Click="minimazeApplication"/>
+                    <Button  Height="20" Width="20" Content="🗙" Background="{x:Null}" BorderBrush="{x:Null}" Click="closeApplicationButton" Foreground="#FFC0C3CC"  />
+                </StackPanel>
+            </Border>
+
+
+
+        </Border>
 
     </Grid>
 </Window>

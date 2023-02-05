@@ -23,6 +23,30 @@ namespace Passwordmanager
 		public MainWindow()
 		{
 			InitializeComponent();
+			
+		
+			
+		
+		}
+
+		private void BtnClick(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Shutdown();
+		}
+
+		private void closeApplicationButton(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Shutdown();
+		}
+
+		private void moveWindow(object sender, MouseButtonEventArgs e)
+		{
+			this.DragMove();
+		}
+
+		private void minimazeApplication(object sender, RoutedEventArgs e)
+		{
+			this.WindowState = WindowState.Minimized;
 		}
 	}
 }
