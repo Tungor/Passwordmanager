@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Passwordmanager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+        Title="MainWindow" Height="450" Width="800" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" WindowStartupLocation="CenterScreen">
     <Grid>
         <Border BorderThickness="1" Background="#FF131722"  Margin="-2,2,2,-2" >
             <Border BorderThickness="1" Height="26" Background="#FF363A45"  VerticalAlignment="Top" MouseDown="moveWindow" Margin="-1,-1,-2,0">
